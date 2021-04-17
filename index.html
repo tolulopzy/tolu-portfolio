@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>portfolio cv</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
@@ -18,13 +19,18 @@
       <a href="#" class="logo">
         <img src="./assets/images/logosample-removebg-preview.png" />
       </a>
+      <!-- menu-btn -->
+      <input class="menu-btn" type="checkbox" id="menu-btn">
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+      </label>
       <!-- menu -->
       <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Recent</a></li>
-        <li><a href="#">Clients</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recent">Recent</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" class="hey">Say Hi!</a>
     </nav>
@@ -36,10 +42,10 @@
       </div>
       <!-- text -->
       <div class="main-text">
-        <h1>Hello I am Tolulope</h1>
-        <p>Hey, In this video i am gonna show you how to make a personal responsive website</p>
+        <h1>Hello I am Tolulope,</h1>
+        <p>I am a front end developer with experience in building and maintaing websites.</p>
         <!-- btn -->
-        <a href="#" class="portfolio-btn">See my portfolio</a>
+        <a href="https://docs.google.com/document/d/1PrdlQNPPJZP7kpuC33EEI7BuG3qii_snn3fxB-S7-xY/edit" class="portfolio-btn">See my portfolio</a>
       </div>
     </div>
   </section>
@@ -63,7 +69,7 @@
           <!-- skill-box-text -->
           <div class="s-box-text">
             <strong>Hyper Text Markup Language(HTML)</strong>
-            <p>I have 3 years experience in HTML and i completed some projects with it</p>
+            <p>I have 2 years experience in HTML and i completed some projects with it</p>
           </div>
         </div>
          <!-- skill-box -->
@@ -75,7 +81,7 @@
           <!-- skill-box-text -->
           <div class="s-box-text">
             <strong>Cascading Style Sheet(CSS)</strong>
-            <p>I have 3 years experience in CSS and i completed some projects with it</p>
+            <p>I have 2 years experience in CSS and i completed some projects with it</p>
           </div>
         </div>
          <!-- skill-box -->
@@ -87,7 +93,7 @@
           <!-- skill-box-text -->
           <div class="s-box-text">
             <strong>Java Script(JS)</strong>
-            <p>I have 3 years experience in Javascript and i completed some projects with it</p>
+            <p>I have 2 years experience in Javascript and i completed some projects with it</p>
           </div>
         </div>
       </div>
@@ -97,5 +103,101 @@
       <img src="./assets/images/female-programmer-illustration.png" />
     </div>
   </section>
+  <!-- recent projects -->
+  <section id="recent">
+    <!-- heading -->
+    <div class="recent-heading">
+      <span>Recent</span>
+      <h3>Recent Project Design</h3>
+    </div>
+    <!-- img -->
+    <div class="recent-img">
+      <img src="./assets/images/softwareprojects.jpg">
+    </div>
+    <!-- btn -->
+    <a href="#" class="recent-btn">View Design</a>
+  </section>
+  <!-- client -->
+  <section id="client">
+    <!-- heading -->
+    <div class="client-heading">
+      <span>comments</span>
+      <h3>Client's Say</h3>
+    </div>
+    <!-- client-box-container -->
+    <div class="c-box-container">
+      <!-- box-1 -->
+      <div class="client-box">
+        <!-- img -->
+        <img src="./assets/images/vector-client-testimonial.jpg" />
+        <!-- stars/reviews -->
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!-- details/comment -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Numquam corporis quia nostrum dolorum placeat aliquid atque maiores error, nam laboriosam.</p>
+           <!-- btn -->
+           <a href="#">Read More</a>
+      </div>
+      <!-- box-2 -->
+      <div class="client-box">
+        <!-- img -->
+        <img src="./assets/images/vector-client-testimonial.jpg" />
+        <!-- stars/reviews -->
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <!-- details/comment -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Numquam corporis quia nostrum dolorum placeat aliquid atque maiores error, nam laboriosam.</p>
+           <!-- btn -->
+           <a href="#">Read More</a>
+      </div>
+      <!-- box-3 -->
+      <div class="client-box">
+        <!-- img -->
+        <img src="./assets/images/vector-client-testimonial.jpg" />
+        <!-- stars/reviews -->
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <!-- details/comment -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Numquam corporis quia nostrum dolorum placeat aliquid atque maiores error, nam laboriosam.</p>
+           <!-- btn -->
+           <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section id="contact">
+    <!-- img -->
+    <img src="./assets/images/imagescontact.png" />
+    <!-- heading -->
+    <h3>Get the Best Project Estimation</h3>
+    <!-- input -->
+    <div class="contact-input">
+      <input type="email" placeholder="Example@gmail.com" />
+      <a href="#">Continue</a>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <p>TolulopeOdeyemi, Ltd Consumer Website</p>
+    <p>copyright 2021 - TolulopeOdeyemi</p>
+  </footer>
 </body>
 </html>
